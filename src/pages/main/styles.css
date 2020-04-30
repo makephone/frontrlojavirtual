@@ -1,0 +1,139 @@
+.corpo .seach{
+background-attachment: fixed;
+background-image: url(capa.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+flex-direction: column;
+ height: 9vh;
+ justify-content: space-between;
+position: relative;
+width: 100%;
+}
+.corpo .seach form{
+margin-left:2vh;  
+margin-top: 1vh;
+margin-bottom: 2vh;
+width: 100%;  
+position: relative;
+display: grid;
+grid-template-columns: 50% 25%
+}
+
+.corpo .seach form input{
+color: #999;
+font-size: 5vh;
+text-align: justify;
+}
+
+
+.corpo .product-list{
+display: grid;
+grid-template-columns: 33% 33% 33%;
+}
+
+.corpo .product-list article{
+background: #fff;
+display: flex;
+height: auto;
+flex-direction: column;
+border: 1px solid #ddd;
+border-radius: 5px;
+padding: 20px;
+margin-bottom: 20px;
+}
+
+.corpo .product-list article .picture {
+display: flex;
+flex-direction: column ;
+}
+
+.corpo .product-list article  strong{
+font-size: 2vw;
+}
+
+.corpo .product-list article .picture .des{
+  height: 2vw;
+  border-radius: 5px;
+  border: 2px solid #da552f;
+  background: none;
+  margin-top: 30px;
+  color: #fff;
+  font-size: 1vw;
+  margin-top: 0.5vw;
+  text-align: center;
+  background: #da552f;
+}
+
+.corpo .product-list article .picture img{
+width: 100%;
+height:30vw;
+}
+
+.corpo .product-list article p{
+font-size: 2vw;
+color: #999;
+margin-top: 5px;
+height: 50px;
+line-height: 24px;
+}
+
+.corpo .product-list article a {
+height: 42px;
+border-radius: 5px;
+border: 2px solid #da552f;
+background: none;
+margin-top: 10px;
+color: #da552f;
+font-weight: bold;
+font-size: 16px;
+text-decoration: none;
+display:flex;
+justify-content: center;
+align-items: center;
+transition: all 0.5s;
+}
+
+.corpo .product-list article a:hover{
+background: #da552f;
+color: #fff;
+}
+
+.corpo .act{
+position:fixed;
+top:93%;
+right: 1%;
+}
+
+.corpo .act button{
+position: relative;
+padding: 10px;
+border-radius: 5px;
+border:0;
+background: #da552f;
+color:#fff;
+font-size: 16px;
+font-weight: bold;
+cursor: pointer;
+}
+
+.corpo .act button:hover{
+opacity: 0.7;
+}
+
+.corpo .act button[disabled]{
+opacity: 0.5;
+cursor: default;
+  }
+
+.corpo .act button[disabled]:hover{
+opacity: 0.5;
+cursor: default;
+ }
+
+.fa-shopping-cart{
+position: fixed;
+top: 5%;
+color: #e95950;
+right: 5%;
+ }
